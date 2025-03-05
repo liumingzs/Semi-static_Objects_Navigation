@@ -32,3 +32,23 @@ cd ..
 colcon build
 source install/setup.bash
 ```
+
+## 5.Create topology map
+### 1. loading model 
+```bash
+python3 sam_service.py
+```
+### 2. Start the Gazebo scene graph
+```bash
+ros2 launch gazebo_ros gazebo.launch.py world:=small_house.world
+```
+### 3. Segment and detect objects
+```bash
+ros2 launch ram_detect my_launch_file.launch.py 
+```
+### 4. robot control
+```bash
+ ros2 run velocity_publisher velocity_publisher 
+```
+![Alt text](/home/lm/Documents/graph_record/IROS/视频剪辑/121.png)
+
