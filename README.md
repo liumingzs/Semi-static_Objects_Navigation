@@ -50,5 +50,6 @@ ros2 launch ram_detect my_launch_file.launch.py
 ```bash
  ros2 run velocity_publisher velocity_publisher 
 ```
-![Alt text](/home/lm/Documents/graph_record/IROS/视频剪辑/121.png)
-
+### 5. visualization results
+![Alt text](/picture/121.png)
+*Fig1: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
