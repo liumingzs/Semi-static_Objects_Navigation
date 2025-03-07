@@ -1,7 +1,7 @@
 # Semi-Static Object Navigation
 ### ▶ Local Video
 <video width="614" height="480" controls>
-  <source src="picture/final" type="video/mp4">
+  <source src="picture/final.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
