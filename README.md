@@ -1,4 +1,6 @@
 # Semi-Static Object Navigation
+### ▶ Demo Video
+[Bilibili Video](https://www.bilibili.com/video/BV1uk91YnEiV/)
 
 
 ## 1. Project Overview  
