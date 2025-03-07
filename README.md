@@ -1,4 +1,9 @@
 # Semi-Static Object Navigation
+### ▶ Local Video
+<video width="614" height="480" controls>
+  <source src="picture/final" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 1. Project Overview  
 This project aims to design an intelligent navigation system for semi-static objects using semantic-guided open-space relational reasoning. By creating an expandable semantic topological map, the system enables robots to understand scene information and object relationships, facilitating regional inference for predicting the locations of semi-static objects. 
