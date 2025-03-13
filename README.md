@@ -56,6 +56,7 @@ ros2 launch ram_detect my_launch_file.launch.py
 ```
 ### 5. visualization results
 ![Alt text](/picture/121.png)
+
 *Fig1: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
 
 ## 6.Semantic reasoning for the position of semi-static objects
