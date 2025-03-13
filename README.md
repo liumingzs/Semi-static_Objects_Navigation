@@ -1,4 +1,5 @@
 # Semi-Static Object Navigation
+![Alt text](/picture/system_view.png)
 ### ▶ Demo Video
 [Bilibili Video](https://www.bilibili.com/video/BV1uk91YnEiV/)
 
@@ -56,3 +57,25 @@ ros2 launch ram_detect my_launch_file.launch.py
 ### 5. visualization results
 ![Alt text](/picture/121.png)
 *Fig1: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
+
+## 6.Semantic reasoning for the position of semi-static objects
+### 1.Get navigation path
+```bash
+ros2 run py_graph route_plan
+```
+### 2.Activate model detecting
+```bash
+python3 sam_service_second.py
+```
+### 3.Save key frames and segmented objects
+```bash
+ros2 launch ram_detect second_guide.launch.py
+```
+### 4.Robot patrol strategy
+```bash
+ros2 run ram_detect virtual_point_to_tracking
+```
+### 5.Large model reasoning semi-static objects
+```bash
+python3 guide_model_gpt.py 
+```
