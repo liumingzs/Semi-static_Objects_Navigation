@@ -38,6 +38,7 @@ source install/setup.bash
 ```
 
 ## 5.Create topology map
+![Alt text](/picture/Overlook.png)
 ### 1. loading model 
 ```bash
 python3 sam_service.py
