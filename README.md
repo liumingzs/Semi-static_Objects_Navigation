@@ -44,7 +44,7 @@ source install/setup.bash
 ## 5.Create topology map
 ![Alt text](/picture/Overlook.png)
 <div align="center">
-  Fig3: topology map overview
+  Fig2: topology map overview
 </div>
 
 ### 1. loading model 
@@ -66,7 +66,7 @@ ros2 launch ram_detect my_launch_file.launch.py
 ### 5. visualization results
 ![Alt text](/picture/121.png)
 <div align="center">
-  Fig2: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
+  Fig3: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
 </div>
 
 ## 6.Semantic reasoning for the position of semi-static objects
@@ -90,3 +90,22 @@ ros2 run ram_detect virtual_point_to_tracking
 ```bash
 python3 guide_model_gpt.py 
 ```
+
+## 7.experimental results
+![Alt text](/picture/nav.png)
+<div align="center">
+  Fig4: Navigation results of semi-dynamic objects in different scenarios
+</div>
+
+
+<div align="center">
+  <img src="/picture/table1.png" alt="Alt text">
+</div>
+
+<div align="center">
+  <img src="/picture/table2.png" alt="Alt text">
+</div>
+
+<div align="center">
+  <img src="/picture/table3.png" alt="Alt text">
+</div>
