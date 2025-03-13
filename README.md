@@ -1,5 +1,9 @@
 # Semi-Static Object Navigation
 ![Alt text](/picture/system_view.png)
+<div align="center">
+  Fig1: System Overview
+</div>
+
 ### ▶ Demo Video
 [Bilibili Video](https://www.bilibili.com/video/BV1uk91YnEiV/)
 
@@ -39,6 +43,10 @@ source install/setup.bash
 
 ## 5.Create topology map
 ![Alt text](/picture/Overlook.png)
+<div align="center">
+  Fig3: topology map overview
+</div>
+
 ### 1. loading model 
 ```bash
 python3 sam_service.py
@@ -57,8 +65,9 @@ ros2 launch ram_detect my_launch_file.launch.py
 ```
 ### 5. visualization results
 ![Alt text](/picture/121.png)
-
-*Fig1: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
+<div align="center">
+  Fig2: The blue edges represent nodes connected to objects, and each group of blue edges points to the objects detected in the scene.
+</div>
 
 ## 6.Semantic reasoning for the position of semi-static objects
 ### 1.Get navigation path
