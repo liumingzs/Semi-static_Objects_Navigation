@@ -86,10 +86,6 @@ ros2 launch ram_detect second_guide.launch.py
 ```bash
 ros2 run ram_detect virtual_point_to_tracking
 ```
-### 5.Large model reasoning semi-static objects
-```bash
-python3 guide_model_gpt.py 
-```
 
 ## 7.experimental results
 ![Alt text](/picture/nav.png)
