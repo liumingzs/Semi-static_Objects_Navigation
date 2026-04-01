@@ -46,7 +46,10 @@ source install/setup.bash
 <div align="center">
   Fig2: topology map overview
 </div>
-
+### 0. graph build
+```bash
+ros2 run py_graph graph
+```
 ### 1. loading model 
 ```bash
 python3 sam_service.py
